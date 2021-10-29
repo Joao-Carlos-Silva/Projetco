@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="79897b61-77ee-49b6-a277-be0601e546af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (1)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Place.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Place.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mats/New Material 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mats/New Material 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mats/New Material 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mats/New Material 3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +26,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Connections.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Pawn.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Place.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PawnInterface.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Place.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2005GGqGtkOQ5FPxJhggJw5Re8R" />
@@ -73,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635168570035</updated>
       <workItem from="1635168577515" duration="2313000" />
-      <workItem from="1635513263057" duration="1520000" />
+      <workItem from="1635513263057" duration="4117000" />
     </task>
     <servers />
   </component>
