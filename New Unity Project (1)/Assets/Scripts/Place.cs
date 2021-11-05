@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class Place : MonoBehaviour
 {
@@ -13,8 +14,9 @@ public class Place : MonoBehaviour
 
     private void OnMouseUp()
     {
-        GameManager.Instance.Click(this);
         Debug.Log("Clicked A Place");
+        GameManager.Instance.Click(this);
+        
     }
 
     // Start is called before the first frame update
@@ -35,6 +37,19 @@ public class Place : MonoBehaviour
         {
             Gizmos.color = Color.white;
             Gizmos.DrawLine(transform.position, p.transform.position);
+        }
+    }
+    
+    private void Awake()
+    {
+        foreach (var p in connections)
+        {
+            List<Place> places = p.connections.ToList();
+            if (!places.Contains(this))
+            {
+                places.Add(this);
+                p.connections = places.ToArray();
+            }
         }
     }
 }

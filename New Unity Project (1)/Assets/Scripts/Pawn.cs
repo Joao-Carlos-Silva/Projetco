@@ -6,6 +6,8 @@ using UnityEngine;
 [Serializable]
 public class Pawn
 {
+
+    [SerializeField] private string rgb;
     [SerializeField] private Place currentPlace;
 
     public Place CurrentPlace

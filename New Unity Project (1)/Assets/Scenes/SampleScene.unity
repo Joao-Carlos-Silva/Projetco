@@ -923,13 +923,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4, y: 6.7, z: -39.9}
+  m_LocalRotation: {x: -0, y: 0.17402865, z: -0, w: 0.9847406}
+  m_LocalPosition: {x: -24.3, y: 6.7, z: -46.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 20.044, z: 0}
 --- !u!1001 &1007741771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1445,12 +1445,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentGame:
-    redPawn:
+    pawns:
+    - rgb: Red
       currentPlace: {fileID: 1102276043}
-    greenPawn:
-      currentPlace: {fileID: 2090962577}
-  greenPawn: {fileID: 1648405632}
-  redPawn: {fileID: 1597394854}
+    - rgb: Green
+      currentPlace: {fileID: 1007741773}
+  pawns:
+  - {fileID: 1597394854}
+  - {fileID: 1648405632}
 --- !u!4 &1751748717
 Transform:
   m_ObjectHideFlags: 0
