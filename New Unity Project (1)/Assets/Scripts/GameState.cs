@@ -6,14 +6,9 @@ using UnityEngine;
 [Serializable]
 public class GameState
 {
-    [SerializeField] private Pawn redPawn;
-
-    [SerializeField] private Pawn greenPawn;
-
-    public Pawn RedPawn => redPawn;
-
-    public Pawn GreenPawn => greenPawn;
+    [SerializeField] private Pawn[] pawns;
     // Start is called before the first frame update
+    public Pawn[] Pawns => pawns;
     void Start()
     {
         

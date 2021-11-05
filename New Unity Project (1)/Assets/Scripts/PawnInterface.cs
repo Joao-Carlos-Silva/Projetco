@@ -15,8 +15,9 @@ public class PawnInterface : MonoBehaviour
 
     private void OnMouseUp()
     {
-        GameManager.Instance.Click(this);
         Debug.Log("Clicked on Pawn");
+        GameManager.Instance.Click(this);
+        
     }
 
     // Start is called before the first frame update
