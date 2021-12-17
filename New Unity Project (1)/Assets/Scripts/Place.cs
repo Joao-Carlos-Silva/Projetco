@@ -7,9 +7,9 @@ using System.Linq;
 public class Place : MonoBehaviour
 {
  
-    [SerializeField] private Place[] connections;
+    [SerializeField] private List<Connection> connections;
 
-    public Place[] Connections => connections;
+    public List<Connection> Connections => connections;
 
 
     private void OnMouseUp()
@@ -35,8 +35,23 @@ public class Place : MonoBehaviour
     {
         foreach (var p in connections)
         {
-            Gizmos.color = Color.white;
-            Gizmos.DrawLine(transform.position, p.transform.position);
+            if (p.Destination == null)
+            {
+                continue;
+            }
+
+            var gizmoPathColor = Color.yellow;
+            if (p.Type == ConnectionType.RED)
+            {
+                gizmoPathColor = Color.red;
+            }
+            else if (p.Type == ConnectionType.GREEN)
+            {
+                gizmoPathColor = Color.green;
+            }
+
+            Gizmos.color = gizmoPathColor;
+            Gizmos.DrawLine(transform.position, p.Destination.transform.position);
         }
     }
     
@@ -44,11 +59,10 @@ public class Place : MonoBehaviour
     {
         foreach (var p in connections)
         {
-            List<Place> places = p.connections.ToList();
-            if (!places.Contains(this))
+            List<Connection> pConnections = p.Destination.Connections;
+            if (!pConnections.Exists(c =>c.Destination == this))
             {
-                places.Add(this);
-                p.connections = places.ToArray();
+                pConnections.Add(new Connection(this, p.Type));
             }
         }
     }

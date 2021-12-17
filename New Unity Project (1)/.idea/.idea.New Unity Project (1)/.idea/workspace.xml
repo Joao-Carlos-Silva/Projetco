@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="79897b61-77ee-49b6-a277-be0601e546af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project (1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project (1)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats/New Material 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mats/New Material 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats/New Material 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mats/New Material 3.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Place.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Place.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RandomPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RandomPlayer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,26 +18,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ConnectionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Place.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PawnInterface.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa21432.3364/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Connection.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Connections.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Pawn.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Place.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PawnInterface.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Pawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RandomPlayer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ConnectionType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Connection.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Place.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Place.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pawn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ItemType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2005GGqGtkOQ5FPxJhggJw5Re8R" />
@@ -82,6 +102,18 @@
       <updated>1635168570035</updated>
       <workItem from="1635168577515" duration="2313000" />
       <workItem from="1635513263057" duration="4117000" />
+      <workItem from="1636381671480" duration="1362000" />
+      <workItem from="1636383622919" duration="1315000" />
+      <workItem from="1636724825260" duration="3345000" />
+      <workItem from="1637590606638" duration="5083000" />
+      <workItem from="1637935283620" duration="3324000" />
+      <workItem from="1637941398838" duration="207000" />
+      <workItem from="1638810240961" duration="1262000" />
+      <workItem from="1639144502809" duration="1561000" />
+      <workItem from="1639404858188" duration="1683000" />
+      <workItem from="1639746345737" duration="665000" />
+      <workItem from="1639757133331" duration="62000" />
+      <workItem from="1639757221614" duration="1511000" />
     </task>
     <servers />
   </component>

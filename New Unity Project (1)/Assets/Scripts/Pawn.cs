@@ -6,10 +6,12 @@ using UnityEngine;
 [Serializable]
 public class Pawn
 {
-
-    [SerializeField] private string rgb;
+    [SerializeField] private ConnectionType color;
+    //[SerializeField] private string rgb;
     [SerializeField] private Place currentPlace;
 
+
+    public ConnectionType Color => color;
     public Place CurrentPlace
     {
         get => currentPlace;
@@ -25,5 +27,13 @@ public class Pawn
     void Update()
     {
         
+    }
+
+    public Pawn DeepCopy()
+    {
+        Pawn copy = new Pawn();
+        copy.currentPlace = this.currentPlace;
+        copy.color = this.color;
+        return copy;
     }
 }
